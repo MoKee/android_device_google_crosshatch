@@ -22,8 +22,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_blueline_hwasan.mk
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_blueline.mk \
-    $(LOCAL_DIR)/lineage_crosshatch.mk
+    $(LOCAL_DIR)/mokee_blueline.mk \
+    $(LOCAL_DIR)/mokee_crosshatch.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_crosshatch-userdebug \

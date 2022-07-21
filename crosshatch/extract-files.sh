@@ -56,7 +56,7 @@ fi
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
-extract "${MY_DIR}/${DEVICE}/lineage-proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
-extract "${MY_DIR}/${DEVICE}/lineage-proprietary-files-other.txt" "${SRC}" "${KANG}" --section "${SECTION}"
+extract "${MY_DIR}/${DEVICE}/mokee-proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
+extract "${MY_DIR}/${DEVICE}/mokee-proprietary-files-other.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 
 "${MY_DIR}/${DEVICE}/setup-makefiles.sh"

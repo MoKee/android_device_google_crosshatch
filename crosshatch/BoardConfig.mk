@@ -21,4 +21,4 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165
 
 include device/google/crosshatch/BoardConfig-common.mk
 
--include device/google/crosshatch/crosshatch/BoardConfigLineage.mk
+-include device/google/crosshatch/crosshatch/BoardConfigMoKee.mk
